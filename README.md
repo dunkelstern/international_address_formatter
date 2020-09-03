@@ -27,6 +27,9 @@ def __init__(self, config=None):
 
 def format(self, address, country=None):
     pass
+
+def one_line(self, address, country=None):
+    pass
 ```
 
 #### `__init__`
