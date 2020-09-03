@@ -1,0 +1,12 @@
+out.png
+dump.json
+__pycache__
+*.pyc
+.idea/
+.vscode/
+*.egg-info
+dist/
+build/
+.mypy_cache/
+.tox
+.pytest_cache
