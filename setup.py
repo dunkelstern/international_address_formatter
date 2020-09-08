@@ -6,7 +6,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
         name='international_address_formatter',
-        version='1.0.0',
+        version='1.0.1',
         description='International address formatter',
         long_description='''
 This is a address formatter that can format addresses in multiple formats that are common in different countries.
