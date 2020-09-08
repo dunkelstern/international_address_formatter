@@ -23,8 +23,8 @@ class AddressFormatter():
             # assume we are in a virtualenv first
             self.model = None
             try:
-                if resource_exists('address_formatter', 'worldwide.yml'):
-                    self.model = yaml.load(resource_stream('address_formatter', 'worldwide.yml'), Loader=yaml.FullLoader)
+                if resource_exists('international_address_formatter', 'worldwide.yml'):
+                    self.model = yaml.load(resource_stream('international_address_formatter', 'worldwide.yml'), Loader=yaml.FullLoader)
             except ModuleNotFoundError:
                 pass
 
