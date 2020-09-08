@@ -9,6 +9,10 @@ See `README.md` in the [repository](https://github.com/dunkelstern/international
 
 ## Changelog
 
+### v1.0.1
+
+- Bugfix: Package did not find its data-file because of wrong path calculation
+
 ### v1.0
 
 - Initial release, split out of the osmgeocoder project
