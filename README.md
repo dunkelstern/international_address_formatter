@@ -9,6 +9,10 @@ See `README.md` in the [repository](https://github.com/dunkelstern/international
 
 ## Changelog
 
+### v1.0.2
+
+- Update `worldwide.yml` data file (thanks @kimryan)
+
 ### v1.0.1
 
 - Bugfix: Package did not find its data-file because of wrong path calculation
