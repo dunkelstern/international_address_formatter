@@ -4,6 +4,7 @@
 name: Upload Python Package
 
 on:
+  workflow_dispatch:
   release:
     types: [created]
 
@@ -11,6 +12,7 @@ jobs:
   deploy:
 
     runs-on: ubuntu-latest
+    environment: deploy
 
     steps:
     - uses: actions/checkout@v2
