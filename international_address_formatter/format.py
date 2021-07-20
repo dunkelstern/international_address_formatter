@@ -53,4 +53,4 @@ class AddressFormatter():
         return pystache.render(fmt['address_template'], cleaned_address).strip()
 
     def one_line(self, address, country=None):
-        return ", ".join(self.format(address, country=country).split("\n"))
+        return ", ".join([line for line in self.format(address, country=country).split("\n") if line.strip()])
